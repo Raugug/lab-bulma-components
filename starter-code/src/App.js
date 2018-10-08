@@ -19,8 +19,8 @@ export const App = () => {
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
       <FormField label="Password" type="password" placeholder="e.g. ---------" />
-      <CoolButton isSmall isDanger className="is-rounded">Sign up</CoolButton>
-      <CoolButton isSmall isSuccess>Log in</CoolButton> 
+      <CoolButton isSmall isSuccess>Accept</CoolButton>
+      <CoolButton isSmall isDanger>Cancel</CoolButton> 
     </div>
   )
 
